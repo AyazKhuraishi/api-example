@@ -20,7 +20,7 @@ public class ApiResource {
 	@GET
 	@ApiOperation(value = "Hello operation", response = HelloEntity.class)
 	public Response hello() {
-		return Response.ok().entity(new HelloEntity()).build();
+	    return Response.ok().entity(new HelloEntity()).build();
 	}
 	
 }
